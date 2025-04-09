@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\timat\\RiderProjects\\ShiftPlanner\\WebApi\\WebApi\\WebApi.csproj": {}
+    "\\\\wsl$\\Ubuntu\\home\\docker_unix\\ShiftPlanner\\WebApi\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\timat\\RiderProjects\\ShiftPlanner\\WebApi\\WebApi\\WebApi.csproj": {
+    "\\\\wsl$\\Ubuntu\\home\\docker_unix\\ShiftPlanner\\WebApi\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timat\\RiderProjects\\ShiftPlanner\\WebApi\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "\\\\wsl$\\Ubuntu\\home\\docker_unix\\ShiftPlanner\\WebApi\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\timat\\RiderProjects\\ShiftPlanner\\WebApi\\WebApi\\WebApi.csproj",
+        "projectPath": "\\\\wsl$\\Ubuntu\\home\\docker_unix\\ShiftPlanner\\WebApi\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\timat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timat\\RiderProjects\\ShiftPlanner\\WebApi\\WebApi\\obj\\",
+        "outputPath": "\\\\wsl$\\Ubuntu\\home\\docker_unix\\ShiftPlanner\\WebApi\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
